@@ -36,13 +36,10 @@ function Contact() {
         viewport={{ once: false, amount: 0.5 }} // Trigger animation when 50% of the element is in view
         variants={containerVariants}
       >
-        <motion.p className="my-4" variants={contactVariants}>
-          {CONTACT.address}
-        </motion.p>
-        <motion.p className="my-4" variants={contactVariants}>
+        <motion.p className="my-4 text-2xl" variants={contactVariants}>
           {CONTACT.phoneNo}
         </motion.p>
-        <motion.a href="#" className="border-b" variants={contactVariants}>
+        <motion.a className="border-b text-2xl" variants={contactVariants}>
           {CONTACT.email}
         </motion.a>
       </motion.div>

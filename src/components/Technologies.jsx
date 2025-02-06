@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
@@ -95,14 +96,14 @@ function Technologies() {
         >
           <FaGithub className="text-7xl" style={{ color: "#fff" }} />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandTypescript className="text-7xl text-blue-400" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );

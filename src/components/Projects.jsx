@@ -18,49 +18,51 @@ const projectVariants = (index) => ({
 
 function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <section className="container mx-auto px-4 py-10">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.2 }}
-        className="my-20 text-center text-4xl"
+        className="mb-12 text-center text-4xl font-bold"
       >
         Projects
       </motion.h2>
-      <motion.div className="" initial="hidden" whileInView="visible">
+
+      <motion.div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((project, index) => (
           <motion.div
             key={index}
-            className="mb-5 flex flex-wrap lg:justify-center"
+            className="rounded-lg border border-gray-200 p-6 shadow-lg"
             initial="hidden"
             whileInView="visible"
             variants={projectVariants(index)}
           >
-            <div className="w-full lg:w-1/4">
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="rounded-lg"
-              />
-            </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((technology, index) => (
+            <h3 className="text-2xl font-semibold">{project.title}</h3>
+            <p className="mt-2 text-gray-600">{project.description}</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {project.technologies.map((tech, idx) => (
                 <span
-                  key={index}
-                  className="inline-block bg-neutral-900 text-neutral-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2"
+                  key={idx}
+                  className="rounded bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800"
                 >
-                  {technology}
+                  {tech}
                 </span>
               ))}
             </div>
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block rounded bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600"
+              >
+                View Project
+              </a>
+            )}
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </section>
   );
 }
 
