@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -113,7 +114,7 @@ function Contact() {
               </motion.div>
 
               {/* Phone Section */}
-              <motion.div
+              {/* <motion.div
                 variants={contactVariants}
                 className="flex flex-col gap-2"
               >
@@ -152,7 +153,7 @@ function Contact() {
                     </Button>
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </CardContent>
           </Card>
         </motion.div>
