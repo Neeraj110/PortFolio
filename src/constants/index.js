@@ -43,7 +43,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog , posts, videos, image, with features like rich text editing, commenting, and user profiles .",
     technologies: ["Nextjs", "MongoDB", "React.js", "Shadcn", "Tailwind CSS"],
-    link: "#",
+    link: "https://blog-app-using-nextjs-mu.vercel.app",
   },
 ];
 
