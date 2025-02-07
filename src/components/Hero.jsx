@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br">
       <Card className="w-full max-w-3xl mx-4 bg-black/30 backdrop-blur-sm border-none">
-        <CardContent className="p-8 space-y-6">
+        <CardContent className="p-8 space-y-4">
           {/* Name with slide-in animation */}
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 text-transparent bg-clip-text slide-in">

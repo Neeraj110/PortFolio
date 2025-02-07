@@ -104,7 +104,7 @@ function Navbar({
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-x-0 bg-neutral-950/95 backdrop-blur-sm border-b border-neutral-800 px-4 py-4">
+        <div className="md:hidden fixed inset-x-0 bg-neutral-950/95 backdrop-blur-sm border-b border-neutral-800 px-4 py-3">
           <div className="flex flex-col gap-4">
             <Button
               variant="ghost"
