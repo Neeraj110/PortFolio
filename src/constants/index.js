@@ -19,7 +19,8 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    link: "#",
+    link: "#", // Replace with your GitHub link
+    github: "#", // Add GitHub link
   },
   {
     title: "Task Management App",
@@ -27,7 +28,8 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "#",
+    link: "#", // Replace with your GitHub link
+    github: "#", // Add GitHub link
   },
   {
     title: "Portfolio Website",
@@ -35,7 +37,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "#",
+    link: "#", // Replace with your GitHub link
+    github: "#", // Add GitHub link
   },
   {
     title: "Social Platform",
@@ -44,6 +47,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog , posts, videos, image, with features like rich text editing, commenting, and user profiles .",
     technologies: ["Nextjs", "MongoDB", "React.js", "Shadcn", "Tailwind CSS"],
     link: "https://blog-app-using-nextjs-mu.vercel.app",
+    github: "#", // Add GitHub link
   },
 ];
 
