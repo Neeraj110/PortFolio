@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 fade-in">
               <Typewriter
-                words={["Frontend Developer", "", "Full Stack Developer"]}
+                words={["Frontend Developer", "", "Mern Stack Developer"]}
                 loop={true}
                 cursor
                 cursorStyle="_"

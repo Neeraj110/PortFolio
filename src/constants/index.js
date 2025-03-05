@@ -17,10 +17,41 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    link: "#", // Replace with your GitHub link
-    github: "#", // Add GitHub link
+      "A fully functional e-commerce website built with Next.js 15, featuring product listings, shopping cart, user authentication, and payment integration. The app supports themes, real-time image uploads with Cloudinary, and optimized performance using Turbopack.",
+    technologies: [
+      "Next.js 15",
+      "React 19",
+      "Redux Toolkit",
+      "MongoDB",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Razorpay",
+    ],
+    link: "https://e-commerce-next-app-peach.vercel.app/",
+    github: "https://github.com/Neeraj110/e-commerce-next-app",
+  },
+  {
+    title: "Social Platform",
+    image: "project4",
+    description:
+      "A platform for creating and publishing blogs, posts, videos, and images, with features like rich text editing, commenting, and user profiles.",
+    conciseDescription:
+      "A social media app for sharing multimedia content with real-time interaction and user management.",
+    technologies: [
+      "Next.js",
+      "MongoDB",
+      "React.js",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Redux Toolkit",
+      "Mongoose",
+      "Axios",
+      "NodeMailer",
+      "Bcrypt.js",
+    ],
+    link: "https://blog-app-using-nextjs-mu.vercel.app",
+    github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
   },
   {
     title: "Task Management App",
@@ -28,8 +59,8 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "#", // Replace with your GitHub link
-    github: "#", // Add GitHub link
+    link: "#",
+    github: "#",
   },
   {
     title: "Portfolio Website",
@@ -37,17 +68,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "#", // Replace with your GitHub link
-    github: "#", // Add GitHub link
-  },
-  {
-    title: "Social Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog , posts, videos, image, with features like rich text editing, commenting, and user profiles .",
-    technologies: ["Nextjs", "MongoDB", "React.js", "Shadcn", "Tailwind CSS"],
-    link: "https://blog-app-using-nextjs-mu.vercel.app",
-    github: "#", // Add GitHub link
+    link: "#",
+    github: "#",
   },
 ];
 
