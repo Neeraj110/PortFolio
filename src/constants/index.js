@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I'm passionate Frontend Developer with a knack for creating seamless, responsive web applications. I specialize in HTML, CSS, JavaScript, and have experience with React.js, Redux, and Tailwind CSS. I also have some exposure to the MERN stack, which helps me build full-stack applications. My goal is to craft user-friendly, dynamic interfaces that enhance the user experience. Let's bring your ideas to life on the web!
 `;
