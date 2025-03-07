@@ -125,7 +125,7 @@ function Contact() {
                       href={`tel:${CONTACT.phoneNo}`}
                       className="text-sm md:text-base text-neutral-200 hover:text-neutral-100 truncate"
                     >
-                      {CONTACT.phoneNo}
+                      {CONTACT.github}
                     </a>
                   </div>
                   <div className="flex gap-2 justify-end">
