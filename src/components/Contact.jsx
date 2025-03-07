@@ -147,7 +147,7 @@ function Contact() {
                       asChild
                       className="hover:text-neutral-100 hover:bg-black text-white"
                     >
-                      <a href={`tel:${CONTACT.phoneNo}`}>
+                      <a href={CONTACT.github}>
                         <ExternalLink className="w-4 h-4" />
                       </a>
                     </Button>
