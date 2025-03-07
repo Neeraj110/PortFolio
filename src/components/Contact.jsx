@@ -3,7 +3,7 @@ import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Copy, Check, ExternalLink } from "lucide-react";
+import { Mail, Phone, Copy, Check, ExternalLink, Github } from "lucide-react";
 import { useState } from "react";
 
 const contactVariants = {
@@ -114,13 +114,13 @@ function Contact() {
               </motion.div>
 
               {/* Phone Section */}
-              {/* <motion.div
+              <motion.div
                 variants={contactVariants}
                 className="flex flex-col gap-2"
               >
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 rounded-lg bg-neutral-900/50 hover:bg-neutral-800/50 transition-colors gap-3">
                   <div className="flex items-center gap-3 min-w-0">
-                    <Phone className="w-5 h-5 text-neutral-400 flex-shrink-0" />
+                    <Github className="w-5 h-5 text-neutral-400 flex-shrink-0" />
                     <a
                       href={`tel:${CONTACT.phoneNo}`}
                       className="text-sm md:text-base text-neutral-200 hover:text-neutral-100 truncate"
@@ -153,7 +153,7 @@ function Contact() {
                     </Button>
                   </div>
                 </div>
-              </motion.div> */}
+              </motion.div>
             </CardContent>
           </Card>
         </motion.div>

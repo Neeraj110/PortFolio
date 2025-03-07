@@ -1,6 +1,3 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `I'm passionate Frontend Developer with a knack for creating seamless, responsive web applications. I specialize in HTML, CSS, JavaScript, and have experience with React.js, Redux, and Tailwind CSS. I also have some exposure to the MERN stack, which helps me build full-stack applications. My goal is to craft user-friendly, dynamic interfaces that enhance the user experience. Let's bring your ideas to life on the web!
 `;
@@ -14,7 +11,6 @@ As I step into the professional world, I'm excited to work on challenging projec
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: project1,
     description:
       "A fully functional e-commerce website built with Next.js 15, featuring product listings, shopping cart, user authentication, and payment integration. The app supports themes, real-time image uploads with Cloudinary, and optimized performance using Turbopack.",
     technologies: [
@@ -52,27 +48,26 @@ export const PROJECTS = [
     link: "https://blog-app-using-nextjs-mu.vercel.app",
     github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
   },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Task Management App",
+  //   image: project2,
+  //   description:
+  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  //   link: "#",
+  //   github: "#",
+  // },
   {
     title: "Portfolio Website",
-    image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Neeraj110/PortFolio",
   },
 ];
 
 export const CONTACT = {
-  phoneNo: "+91 8595918577",
+  github: "https://github.com/Neeraj110",
   email: "neerajgaur8448@gmail.com",
 };
