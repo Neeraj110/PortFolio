@@ -50,8 +50,8 @@ function Projects() {
               <p className="text-neutral-400 text-sm md:text-base mb-4 line-clamp-3">
                 {project.description}
               </p>
-              <div className="flex flex-wrap gap-2 max-h-24 overflow-hidden">
-                {project.technologies.slice(0, 5).map((tech, idx) => (
+              <div className="flex flex-wrap gap-2  ">
+                {project.technologies.map((tech, idx) => (
                   <Badge
                     key={idx}
                     variant="secondary"

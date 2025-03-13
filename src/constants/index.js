@@ -1,4 +1,3 @@
-
 export const HERO_CONTENT = `I'm passionate Frontend Developer with a knack for creating seamless, responsive web applications. I specialize in HTML, CSS, JavaScript, and have experience with React.js, Redux, and Tailwind CSS. I also have some exposure to the MERN stack, which helps me build full-stack applications. My goal is to craft user-friendly, dynamic interfaces that enhance the user experience. Let's bring your ideas to life on the web!
 `;
 
@@ -48,15 +47,26 @@ export const PROJECTS = [
     link: "https://blog-app-using-nextjs-mu.vercel.app",
     github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
   },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  //   link: "#",
-  //   github: "#",
-  // },
+  {
+    title: "MERN Chat App",
+    description:
+      "A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and WebSockets for live communication. The app includes features like user authentication, file uploads, and Google OAuth integration.",
+    technologies: [
+      "Express.js",
+      "Mongoose",
+      "Socket.io",
+      "Google APIs",
+      "React 19",
+      "Vite",
+      "Redux Toolkit",
+      "React Router DOM",
+      "Tailwind CSS",
+      "Socket.io Client",
+      "@react-oauth/google",
+    ],
+    link: "https://mern-chat-app-k2v2.onrender.com",
+    github: "https://github.com/Neeraj110/mern-chat-app",
+  },
   {
     title: "Portfolio Website",
     description:
