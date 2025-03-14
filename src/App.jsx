@@ -35,7 +35,7 @@ function App() {
         />
       </div>
 
-      <div className="container mx-auto px-8 py-9">
+      <div className="container mx-auto px-8 ">
         <div ref={homeRef}>
           <Hero />
         </div>
