@@ -35,8 +35,7 @@ function App() {
         />
       </div>
 
-      {/* Main Content (with padding to avoid overlap with Navbar) */}
-      <div className="container mx-auto px-8 pt-20">
+      <div className="container mx-auto px-8 py-9">
         <div ref={homeRef}>
           <Hero />
         </div>
