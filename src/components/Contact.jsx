@@ -124,6 +124,8 @@ function Contact() {
                     <a
                       href={`${CONTACT.phoneNo}`}
                       className="text-sm md:text-base text-neutral-200 hover:text-neutral-100 truncate"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       github.com/Neeraj110
                     </a>
