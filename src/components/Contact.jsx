@@ -122,10 +122,10 @@ function Contact() {
                   <div className="flex items-center gap-3 min-w-0">
                     <Github className="w-5 h-5 text-neutral-400 flex-shrink-0" />
                     <a
-                      href={`tel:${CONTACT.phoneNo}`}
+                      href={`${CONTACT.phoneNo}`}
                       className="text-sm md:text-base text-neutral-200 hover:text-neutral-100 truncate"
                     >
-                      {CONTACT.github}
+                      github.com/Neeraj110
                     </a>
                   </div>
                   <div className="flex gap-2 justify-end">

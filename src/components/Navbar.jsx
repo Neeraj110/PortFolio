@@ -75,7 +75,7 @@ function Navbar({
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/neeraj-gaur-a913b9238/"
+            href="https://www.linkedin.com/in/neeraj-gaur-a913b9238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-300 hover:text-neutral-100 transition-colors"
@@ -83,7 +83,7 @@ function Navbar({
             <FaLinkedin />
           </a>
           <a
-            href="https://x.com/Neerajgaur__"
+            href="https://x.com/Neerajgaur_?t=81oxTcipdykjMYxjpH7qzg&s=08"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-300 hover:text-neutral-100 transition-colors"
