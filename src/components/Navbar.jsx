@@ -154,7 +154,7 @@ function Navbar({
                 <FaLinkedin />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/Neerajgaur__?t=tjrMzNu2xIZX6OKGXZxmsw&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-300 hover:text-neutral-100 transition-colors"
