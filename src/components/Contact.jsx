@@ -131,7 +131,7 @@ function Contact() {
                     </a>
                   </div>
                   <div className="flex gap-2 justify-end">
-                    <Button
+                    {/* <Button
                       variant="ghost"
                       size="icon"
                       onClick={() => copyToClipboard(CONTACT.phoneNo, "phone")}
@@ -142,7 +142,7 @@ function Contact() {
                       ) : (
                         <Copy className="w-4 h-4" />
                       )}
-                    </Button>
+                    </Button> */}
                     <Button
                       variant="ghost"
                       size="icon"
