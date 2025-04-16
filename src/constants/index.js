@@ -68,6 +68,22 @@ export const PROJECTS = [
     github: "https://github.com/Neeraj110/mern-chat-app",
   },
   {
+    title: "YouTube Clone",
+    description:
+      "A YouTube clone application built with React , leveraging Google YouTube Data API v3 for fetching and displaying videos. The project features real-time search, video playback, responsive UI with Tailwind CSS, speech recognition for voice-based search, and Context API for state management.",
+    technologies: [
+      "Ract 18",
+      "React Router DOM",
+      "Context API",
+      "Tailwind CSS",
+      "Google YouTube API",
+      "Axios",
+      "React Speech Recognition",
+    ],
+    link: "https://yt-clone-six-rho.vercel.app/",
+    github: "https://github.com/Neeraj110/yt-clone",
+  },
+  {
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
