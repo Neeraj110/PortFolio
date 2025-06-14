@@ -91,6 +91,22 @@ export const PROJECTS = [
     link: "#",
     github: "https://github.com/Neeraj110/PortFolio",
   },
+  {
+    title: "SmartDesk",
+    description:
+      "SmartDesk is an AI-powered productivity dashboard that helps users manage tasks, take AI-generated notes, and visualize productivity insights — all in one modern, responsive web app.",
+    technologies: [
+      "React 19",
+      "Tailwind CSS v4",
+      "Redux Toolkit",
+      "React Hook Form",
+      "Google OAuth",
+      "Radix UI",
+      "TypeScript",
+    ],
+    link: "https://smartdesk-frontend-howv.vercel.app/",
+    github: "https://github.com/Neeraj110/smartdesk-frontend",
+  },
 ];
 
 export const CONTACT = {
