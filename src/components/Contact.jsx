@@ -156,6 +156,43 @@ function Contact() {
                   </div>
                 </div>
               </motion.div>
+
+              <motion.div
+                variants={contactVariants}
+                className="flex flex-col gap-2"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 rounded-lg bg-neutral-900/50 hover:bg-neutral-800/50 transition-colors gap-3">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <ExternalLink className="w-5 h-5 text-neutral-400 flex-shrink-0" />
+                    <a
+                      href="/Neeraj_Gaur_Resume.pdf"
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm md:text-base text-neutral-200 hover:text-neutral-100 truncate"
+                    >
+                      Download My Resume
+                    </a>
+                  </div>
+                  <div className="flex gap-2 justify-end">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      asChild
+                      className="hover:text-neutral-100 hover:bg-black text-white"
+                    >
+                      <a
+                        href="/Neeraj_Gaur_Resume.pdf"
+                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </motion.div>
             </CardContent>
           </Card>
         </motion.div>
