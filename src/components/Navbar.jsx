@@ -75,7 +75,7 @@ function Navbar({
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/neeraj-gaur-a913b9238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
+            href="https://www.linkedin.com/in/neerajgaur12"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-300 hover:text-neutral-100 transition-colors"

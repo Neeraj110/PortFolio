@@ -80,8 +80,8 @@ export const PROJECTS = [
       "Socket.io Client",
       "@react-oauth/google",
     ],
-    link: "https://mern-chat-app-k2v2.onrender.com",
-    github: "https://github.com/Neeraj110/mern-chat-app",
+    link: "https://chatapp-8691.onrender.com",
+    github: "https://github.com/Neeraj110/chatApp",
   },
   {
     title: "YouTube Clone",
