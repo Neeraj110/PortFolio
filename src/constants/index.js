@@ -60,7 +60,7 @@ export const PROJECTS = [
       "NodeMailer",
       "Bcrypt.js",
     ],
-    link: "https://blog-app-using-nextjs-mu.vercel.app",
+    link: "https://blog-app-using-nextjs-lovat.vercel.app",
     github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
   },
   {
