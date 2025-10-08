@@ -146,7 +146,7 @@ function Navbar({
                 <FaGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/neeraj-gaur"
+                href="https://www.linkedin.com/in/neerajgaur12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-300 hover:text-neutral-100 transition-colors"
