@@ -9,6 +9,8 @@ function Navbar({
   onAboutClick,
   onTechClick,
   onProjectsClick,
+  onExperienceClick,
+  onEducationClick,
   onContactClick,
   onHomeClick,
 }) {
@@ -54,6 +56,20 @@ function Navbar({
             className="text-neutral-300 hover:text-black text-xl hover:bg-neutral-100"
           >
             Projects
+          </Button>
+          <Button
+            variant="ghost"
+            onClick={onExperienceClick}
+            className="text-neutral-300 hover:text-black text-xl hover:bg-neutral-100"
+          >
+            Experience
+          </Button>
+          <Button
+            variant="ghost"
+            onClick={onEducationClick}
+            className="text-neutral-300 hover:text-black text-xl hover:bg-neutral-100"
+          >
+            Education
           </Button>
           <Button
             variant="ghost"
@@ -126,6 +142,20 @@ function Navbar({
               className="text-neutral-300 hover:text-neutral-100 w-full justify-start"
             >
               Projects
+            </Button>
+            <Button
+              variant="ghost"
+              onClick={() => handleNavClick(onExperienceClick)}
+              className="text-neutral-300 hover:text-neutral-100 w-full justify-start"
+            >
+              Experience
+            </Button>
+            <Button
+              variant="ghost"
+              onClick={() => handleNavClick(onEducationClick)}
+              className="text-neutral-300 hover:text-neutral-100 w-full justify-start"
+            >
+              Education
             </Button>
             <Button
               variant="ghost"

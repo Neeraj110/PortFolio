@@ -28,12 +28,18 @@ const Hero = () => {
             </h2>
           </div>
 
-          {/* Simple description */}
           <div className="max-w-xl mx-auto text-center">
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-300 mb-8">
               Crafting elegant web experiences with modern technologies.
               Building responsive and user-friendly interfaces.
             </p>
+            <a
+              href="/Neerajgaur.pdf"
+              download="Neeraj_Gaur_CV.pdf"
+              className="inline-block rounded-full bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 p-4 text-sm text-white mb-10 hover:bg-slate-800 transition-all hover:scale-105 duration-300"
+            >
+              Download CV
+            </a>
           </div>
         </CardContent>
       </Card>

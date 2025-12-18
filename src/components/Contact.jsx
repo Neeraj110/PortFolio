@@ -157,7 +157,7 @@ function Contact() {
                 </div>
               </motion.div>
 
-              <motion.div
+              {/* <motion.div
                 variants={contactVariants}
                 className="flex flex-col gap-2"
               >
@@ -192,7 +192,7 @@ function Contact() {
                     </Button>
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </CardContent>
           </Card>
         </motion.div>

@@ -4,12 +4,16 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 
 function App() {
   const aboutRef = useRef(null);
   const techRef = useRef(null);
   const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
+  const educationRef = useRef(null);
   const contactRef = useRef(null);
   const homeRef = useRef(null);
 
@@ -30,6 +34,8 @@ function App() {
           onAboutClick={() => scrollToSection(aboutRef)}
           onTechClick={() => scrollToSection(techRef)}
           onProjectsClick={() => scrollToSection(projectsRef)}
+          onExperienceClick={() => scrollToSection(experienceRef)}
+          onEducationClick={() => scrollToSection(educationRef)}
           onContactClick={() => scrollToSection(contactRef)}
           onHomeClick={() => scrollToSection(homeRef)}
         />
@@ -41,6 +47,12 @@ function App() {
         </div>
         <div ref={projectsRef}>
           <Projects />
+        </div>
+        <div ref={experienceRef}>
+          <Experience />
+        </div>
+        <div ref={educationRef}>
+          <Education />
         </div>
         <div ref={techRef}>
           <Technologies />

@@ -1,115 +1,102 @@
-export const HERO_CONTENT = `I'm passionate Frontend Developer with a knack for creating seamless, responsive web applications. I specialize in HTML, CSS, JavaScript, and have experience with React.js, Redux, and Tailwind CSS. I also have some exposure to the MERN stack, which helps me build full-stack applications. My goal is to craft user-friendly, dynamic interfaces that enhance the user experience. Let's bring your ideas to life on the web!
-`;
+export const HERO_CONTENT = `I'm a passionate Frontend Developer skilled in crafting responsive web applications using React.js, Next.js, and Tailwind CSS. Experienced in fullstack projects, real-time systems, and modern tooling with clean code and scalable architecture.`;
 
-export const ABOUT_TEXT = `Hi! I'm a passionate frontend developer and a soon-to-be graduate currently exploring the ever-evolving world of web development. My main focus is on frontend technologies, where I strive to build intuitive and visually appealing user interfaces.
+export const ABOUT_TEXT = `Passionate Frontend Developer skilled in crafting responsive web applications using React.js, Next.js, and Tailwind CSS. Experienced in fullstack projects, real-time systems, and modern tooling with clean code and scalable architecture.
 
-I'm constantly learning and upskilling, diving deep into modern frontend tech stacks. Recently, I've been exploring Next.js, ShadCN, and other extra libraries to enhance my development workflow. While frontend development is my primary strength, I'm also expanding my knowledge of backend technologies, mainly focusing on the MERN (MongoDB, Express, React, Node.js) stack to become a more well-rounded developer.
+I'm constantly learning and upskilling, diving deep into modern frontend tech stacks. Recently, I've been exploring Next.js 15, Shadcn UI, and other extra libraries to enhance my development workflow. While frontend development is my primary strength, I'm also expanding my knowledge of backend technologies, mainly focusing on the MERN (MongoDB, Express, React, Node.js) stack to become a more well-rounded developer.
 
 As I step into the professional world, I'm excited to work on challenging projects, collaborate with like-minded developers, and contribute to innovative solutions. Let's build something amazing together!`;
 
-export const PROJECTS = [
+export const EXPERIENCES = [
   {
-    title: "E-Commerce Website",
-    description:
-      "A fully functional e-commerce website built with Next.js 15, featuring product listings, shopping cart, user authentication, and payment integration. The app supports themes, real-time image uploads with Cloudinary, and optimized performance using Turbopack.",
-    technologies: [
-      "Next.js 15",
-      "React 19",
-      "Redux Toolkit",
-      "MongoDB",
-      "Tailwind CSS",
-      "Cloudinary",
-      "Razorpay",
-    ],
-    link: "https://e-commerce-next-app-peach.vercel.app/",
-    github: "https://github.com/Neeraj110/e-commerce-next-app",
+    year: "August 2025 – Present",
+    role: "Fullstack Developer Intern",
+    company: "Writecream",
+    description: `Working on trymax.dev, an AI platform generating full-stack websites from natural language prompts. Contributing to frontend development and UI enhancements for AI-powered code generation platform. Implementing features for automated application builder supporting React, Next.js, frameworks.`,
+    technologies: ["React.js", "Next.js", "AI Integration", "UI/UX"],
+  },
+];
+
+export const EDUCATION = [
+  {
+    year: "2022 – 2025",
+    degree: "Bachelor of Computer Applications (BCA)",
+    institution: "JB Knowledge Park, Faridabad",
+    description: "CGPA: 7",
   },
   {
-    title: "SmartDesk",
+    year: "Completed",
+    degree: "12th Grade (CBSE)",
+    institution: "Acharya Tulsi Sarvodaya Bal Vidyalaya, Delhi",
+    description: "",
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "SmartDesk – AI Productivity Dashboard",
     description:
-      "SmartDesk is an AI-powered productivity dashboard that helps users manage tasks, take AI-generated notes, and visualize productivity insights — all in one modern, responsive web app.",
+      "AI-powered task management with note generation and Google authentication. Built responsive UI with AI note generation, task management, and Cloudinary file handling.",
     technologies: [
-      "React 19",
-      "Tailwind CSS v4",
-      "Redux Toolkit",
-      "React Hook Form",
-      "Google OAuth",
-      "Radix UI",
-      "TypeScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Google Generative AI",
+      "Tailwind CSS",
     ],
     link: "https://smartdesk-frontend-howv.vercel.app/",
     github: "https://github.com/Neeraj110/smartdesk-frontend",
   },
   {
-    title: "Social Platform",
-    image: "project4",
+    title: "E-Commerce Platform",
     description:
-      "A platform for creating and publishing blogs, posts, videos, and images, with features like rich text editing, commenting, and user profiles.",
-    conciseDescription:
-      "A social media app for sharing multimedia content with real-time interaction and user management.",
+      "Scalable online store with payments, caching, and admin controls. Integrated Razorpay payments, Redis caching (40% faster API, 400ms → 200ms), cart persistence.",
+    technologies: [
+      "Next.js 15",
+      "React 19",
+      "Redux Toolkit",
+      "RTK Query",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+    link: "https://e-commerce-next-app-peach.vercel.app/",
+    github: "https://github.com/Neeraj110/e-commerce-next-app",
+  },
+  {
+    title: "Blogging & Media Platform",
+    description:
+      "Social platform with post creation, media upload, and comments. Built rich text editor, profile pages, auth system; optimized SSR deployment on Vercel.",
     technologies: [
       "Next.js",
       "MongoDB",
-      "React.js",
-      "Shadcn UI",
       "Tailwind CSS",
-      "Cloudinary",
       "Redux Toolkit",
-      "Mongoose",
-      "Axios",
-      "NodeMailer",
-      "Bcrypt.js",
+      "Shadcn UI",
     ],
     link: "https://blog-app-using-nextjs-lovat.vercel.app",
     github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
   },
   {
-    title: "MERN Chat App",
+    title: "Real-Time Chat Application",
     description:
-      "A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and WebSockets for live communication. The app includes features like user authentication, file uploads, and Google OAuth integration.",
+      "Secure real-time chat with Google OAuth and file sharing. Implemented WebSocket messaging, image/file uploads, and message history.",
     technologies: [
+      "React 19",
       "Express.js",
       "Mongoose",
       "Socket.io",
-      "Google APIs",
-      "React 19",
-      "Vite",
-      "Redux Toolkit",
-      "React Router DOM",
       "Tailwind CSS",
-      "Socket.io Client",
-      "@react-oauth/google",
+      "Tanstack Query",
     ],
     link: "https://chatapp-8691.onrender.com",
     github: "https://github.com/Neeraj110/chatApp",
   },
-  {
-    title: "YouTube Clone",
-    description:
-      "A YouTube clone application built with React , leveraging Google YouTube Data API v3 for fetching and displaying videos. The project features real-time search, video playback, responsive UI with Tailwind CSS, speech recognition for voice-based search, and Context API for state management.",
-    technologies: [
-      "Ract 18",
-      "React Router DOM",
-      "Context API",
-      "Tailwind CSS",
-      "Google YouTube API",
-      "Axios",
-      "React Speech Recognition",
-    ],
-    link: "https://yt-clone-six-rho.vercel.app/",
-    github: "https://github.com/Neeraj110/yt-clone",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "#",
-    github: "https://github.com/Neeraj110/PortFolio",
-  },
 ];
 
 export const CONTACT = {
-  github: "https://github.com/Neeraj110",
+  address: "Delhi, India",
+  phoneNo: "+91-8595918577",
   email: "neerajgaur8448@gmail.com",
+  linkedin: "https://www.linkedin.com/in/neeraj-gaur-266157252/",
+  github: "https://github.com/Neeraj110",
 };
