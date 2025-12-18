@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiSocketdotio } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
@@ -48,6 +48,12 @@ const TECHNOLOGIES = [
     name: "GitHub",
     color: "#ffffff",
     duration: 3,
+  },
+  {
+    icon: SiSocketdotio,
+    name: "Socket.io",
+    color: "#ffffff",
+    duration: 6,
   },
 ];
 
