@@ -8,10 +8,10 @@ As I step into the professional world, I'm excited to work on challenging projec
 
 export const EXPERIENCES = [
   {
-    year: "August 2025 – Present",
+    year: "August 2025 – February 2026",
     role: "Fullstack Developer Intern",
     company: "Writecream",
-    description: `Working on trymax.dev, an AI platform generating full-stack websites from natural language prompts. Contributing to frontend development and UI enhancements for AI-powered code generation platform. Implementing features for automated application builder supporting React, Next.js, frameworks.`,
+    description: `Working on trymax.dev, an AI platform generating full-stack websites from natural language prompts. Contributing to frontend development and UI enhancements for AI-powered code generation platform. Implementing features for automated application builder supporting React, Next.js, frameworks. Make a ai tools by using LLMs. like operrouter, gemini, etc`,
     technologies: ["React.js", "Next.js", "AI Integration", "UI/UX"],
   },
 ];
@@ -27,11 +27,27 @@ export const EDUCATION = [
     year: "Completed",
     degree: "12th Grade (CBSE)",
     institution: "Acharya Tulsi Sarvodaya Bal Vidyalaya, Delhi",
-    description: "",
+    description: "74%",
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "QuickSplit 💸 – Expense Splitter",
+    description:
+      "Modern expense-splitting app for friends, families, and teams. Features group management, multi-currency support, smart settlement algorithm minimizing transactions, receipt uploads via Cloudinary, and a unified dashboard with real-time balances.",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Redux Toolkit",
+      "NextAuth.js",
+      "MongoDB",
+      "Zod",
+    ],
+    link: "https://quick-split-pied.vercel.app/",
+    github: "http://github.com/Neeraj110/quickSplit",
+  },
   {
     title: "SmartDesk – AI Productivity Dashboard",
     description:
