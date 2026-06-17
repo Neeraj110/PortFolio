@@ -33,6 +33,24 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
+    title: "CareerCopilot 🚀 – AI Workspace",
+    description:
+      "An AI-powered  workspace and database assistant built for the modern data era. Features AI SQL generation, smart analytics, LangChain agentic AI, secure authentication, and real-time performance.",
+    technologies: [
+      "Next.js 16",
+      "React 19",
+      "Tailwind CSS",
+      "LangChain",
+      "LangGraph",
+      "Prisma",
+      "Zustand",
+      "PostgreSQL",
+      "Mistrail API",
+    ],
+    link: "https://smart-desk-sql.vercel.app/",
+    github: "https://github.com/Neeraj110/careerCopilot",
+  },
+  {
     title: "QuickSplit 💸 – Expense Splitter",
     description:
       "Modern expense-splitting app for friends, families, and teams. Features group management, multi-currency support, smart settlement algorithm minimizing transactions, receipt uploads via Cloudinary, and a unified dashboard with real-time balances.",
@@ -47,21 +65,6 @@ export const PROJECTS = [
     ],
     link: "https://quick-split-pied.vercel.app/",
     github: "http://github.com/Neeraj110/quickSplit",
-  },
-  {
-    title: "SmartDesk – AI Productivity Dashboard",
-    description:
-      "AI-powered task management with note generation and Google authentication. Built responsive UI with AI note generation, task management, and Cloudinary file handling.",
-    technologies: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Google Generative AI",
-      "Tailwind CSS",
-    ],
-    link: "https://smartdesk-frontend-howv.vercel.app/",
-    github: "https://github.com/Neeraj110/smartdesk-frontend",
   },
   {
     title: "E-Commerce Platform",
@@ -113,6 +116,6 @@ export const CONTACT = {
   address: "Delhi, India",
   phoneNo: "+91-8595918577",
   email: "neerajgaur8448@gmail.com",
-  linkedin: "https://www.linkedin.com/in/neeraj-gaur-266157252/",
+  linkedin: "https://www.linkedin.com/in/neerajgaur12",
   github: "https://github.com/Neeraj110",
 };

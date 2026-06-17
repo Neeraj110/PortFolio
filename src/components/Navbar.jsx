@@ -99,7 +99,7 @@ function Navbar({
             <FaLinkedin />
           </a>
           <a
-            href="https://x.com/Neerajgaur_?t=81oxTcipdykjMYxjpH7qzg&s=08"
+            href="https://x.com/Neerajgaur__"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-300 hover:text-neutral-100 transition-colors"
