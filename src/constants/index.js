@@ -1,18 +1,31 @@
-export const HERO_CONTENT = `I'm a passionate Frontend Developer skilled in crafting responsive web applications using React.js, Next.js, and Tailwind CSS. Experienced in fullstack projects, real-time systems, and modern tooling with clean code and scalable architecture.`;
+export const HERO_CONTENT = `
+Full Stack Developer building modern web applications, scalable APIs, and AI-powered products with Next.js, React, Node.js, TypeScript, and PostgreSQL.
+`;
 
-export const ABOUT_TEXT = `Passionate Frontend Developer skilled in crafting responsive web applications using React.js, Next.js, and Tailwind CSS. Experienced in fullstack projects, real-time systems, and modern tooling with clean code and scalable architecture.
+export const ABOUT_TEXT = `
+I'm a Full Stack Developer focused on building modern, scalable web applications and AI-powered products.
 
-I'm constantly learning and upskilling, diving deep into modern frontend tech stacks. Recently, I've been exploring Next.js 15, Shadcn UI, and other extra libraries to enhance my development workflow. While frontend development is my primary strength, I'm also expanding my knowledge of backend technologies, mainly focusing on the MERN (MongoDB, Express, React, Node.js) stack to become a more well-rounded developer.
+My work spans frontend development, backend engineering, database design, real-time systems, and AI integrations. I primarily work with React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, and modern API architectures.
 
-As I step into the professional world, I'm excited to work on challenging projects, collaborate with like-minded developers, and contribute to innovative solutions. Let's build something amazing together!`;
+I've also been working with LangChain, LangGraph, RAG pipelines, vector search, Gemini, and Mistral AI to build practical AI features such as document intelligence, semantic search, AI agents, resume analysis, and automated application generation.
+
+I care about clean architecture, maintainable code, performance, and building products that solve real problems rather than simply demonstrating technology.
+`;
 
 export const EXPERIENCES = [
   {
     year: "August 2025 – February 2026",
     role: "Fullstack Developer Intern",
     company: "Writecream",
-    description: `Working on trymax.dev, an AI platform generating full-stack websites from natural language prompts. Contributing to frontend development and UI enhancements for AI-powered code generation platform. Implementing features for automated application builder supporting React, Next.js, frameworks. Make a ai tools by using LLMs. like operrouter, gemini, etc`,
-    technologies: ["React.js", "Next.js", "AI Integration", "UI/UX"],
+    description: `Worked on AI-powered products and contributed to frontend development using React.js and Next.js. Built reusable components and contributed to an AI application generator that converts natural language prompts into production-ready applications by discovering models, selecting workflows using Gemini, generating application code, and deploying applications automatically.`,
+    technologies: [
+      "React.js",
+      "Next.js",
+      "AI Integration",
+      "Gemini",
+      "LLM APIs",
+      "UI/UX",
+    ],
   },
 ];
 
@@ -21,25 +34,27 @@ export const EDUCATION = [
     year: "2022 – 2025",
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "JB Knowledge Park, Faridabad",
-    description: "CGPA: 7",
+    description: "CGPA: 7.0",
   },
   {
-    year: "Completed",
+    year: "2022",
     degree: "12th Grade (CBSE)",
     institution: "Acharya Tulsi Sarvodaya Bal Vidyalaya, Delhi",
-    description: "74%",
+    description: "75%",
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "CareerCopilot 🚀 – AI Workspace",
+    title: "SmartDesk – AI Productivity & Career Intelligence Platform",
     description:
-      "An AI-powered  workspace and database assistant built for the modern data era. Features AI SQL generation, smart analytics, LangChain agentic AI, secure authentication, and real-time performance.",
+      "AI-powered platform for document chat, ATS scoring, resume analysis, and personalized learning roadmaps. Built with RAG pipelines, semantic search, and agentic AI workflows.",
     technologies: [
-      "Next.js 16",
-      "React 19",
-      "Tailwind CSS",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
       "LangChain",
       "LangGraph",
       "Prisma",
@@ -49,6 +64,8 @@ export const PROJECTS = [
     ],
     link: "https://smart-desk-sql.vercel.app/",
     github: "https://github.com/Neeraj110/careerCopilot",
+    image: "/SmartDesk.png",
+    featured: true,
   },
   {
     title: "QuickSplit 💸 – Expense Splitter",
@@ -65,6 +82,8 @@ export const PROJECTS = [
     ],
     link: "https://quick-split-pied.vercel.app/",
     github: "http://github.com/Neeraj110/quickSplit",
+    image: "/QuickSplit.png",
+    featured: false,
   },
   {
     title: "E-Commerce Platform",
@@ -80,20 +99,8 @@ export const PROJECTS = [
     ],
     link: "https://e-commerce-next-app-peach.vercel.app/",
     github: "https://github.com/Neeraj110/e-commerce-next-app",
-  },
-  {
-    title: "Blogging & Media Platform",
-    description:
-      "Social platform with post creation, media upload, and comments. Built rich text editor, profile pages, auth system; optimized SSR deployment on Vercel.",
-    technologies: [
-      "Next.js",
-      "MongoDB",
-      "Tailwind CSS",
-      "Redux Toolkit",
-      "Shadcn UI",
-    ],
-    link: "https://blog-app-using-nextjs-lovat.vercel.app",
-    github: "https://github.com/Neeraj110/Blog-app-using-Nextjs",
+    image: "/Ecommerce.png",
+    featured: false,
   },
   {
     title: "Real-Time Chat Application",
@@ -109,6 +116,8 @@ export const PROJECTS = [
     ],
     link: "https://chatapp-8691.onrender.com",
     github: "https://github.com/Neeraj110/chatApp",
+    image: "/ChatApp.png",
+    featured: false,
   },
 ];
 

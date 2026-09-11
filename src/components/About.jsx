@@ -1,70 +1,94 @@
+import { useRef } from "react";
 import { ABOUT_TEXT } from "../constants";
-import { motion } from "framer-motion";
-import { Card } from "@/components/ui/card";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
-const About = () => {
-  // Split about text into paragraphs
+gsap.registerPlugin(ScrollTrigger, useGSAP);
+
+export default function About() {
+  const containerRef = useRef(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: containerRef.current,
+        start: "top 75%",
+        end: "bottom 80%",
+        scrub: 1, // Smooth scrub
+      }
+    });
+
+    tl.from(".about-statement", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power2.out"
+    })
+    .from(".about-paragraph", {
+      y: 50,
+      opacity: 0,
+      stagger: 0.2,
+      duration: 1,
+      ease: "power2.out"
+    }, "-=0.5")
+    .from(".about-stat", {
+      scale: 0.8,
+      opacity: 0,
+      stagger: 0.1,
+      duration: 0.8,
+      ease: "back.out(1.7)"
+    }, "-=0.5");
+
+  }, { scope: containerRef });
+
   const paragraphs = ABOUT_TEXT.split("  ").filter((p) => p.trim());
 
   return (
-    <section className="w-full py-12 md:py-24">
-      <motion.h2
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-3xl font-bold tracking-tight text-center mb-8 md:mb-12 lg:text-4xl"
-      >
-        About Me
-      </motion.h2>
+    <section id="about" ref={containerRef} className="w-full min-h-screen py-32 px-6 md:px-12 lg:px-24 max-w-[1600px] mx-auto flex flex-col justify-center">
+      
+      <div className="flex flex-col lg:flex-row gap-16 lg:gap-32 items-start">
+        
+        {/* Large Statement Side */}
+        <div className="w-full lg:w-1/2">
+          <h2 className="about-statement text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter uppercase leading-[0.9] text-white">
+            How I build software
+          </h2>
+        </div>
 
-      <Card className="border-neutral-800 bg-neutral-950/50 backdrop-blur-sm">
-        <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-          className="p-6 md:p-8"
-        >
+        {/* Supporting Information Side */}
+        <div className="w-full lg:w-1/2 flex flex-col gap-8 mt-4 lg:mt-0">
           <div className="space-y-6">
             {paragraphs.map((paragraph, index) => (
-              <motion.p
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-                className="text-neutral-300 text-base md:text-lg leading-relaxed"
-              >
+              <p key={index} className="about-paragraph text-lg md:text-xl text-neutral-400 font-medium leading-relaxed text-balance">
                 {paragraph.trim()}
-              </motion.p>
+              </p>
             ))}
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4"
-          >
-            <div className="text-center p-4 rounded-lg bg-neutral-900/50">
-              <h3 className="text-2xl font-bold text-neutral-100">2+</h3>
-              <p className="text-sm text-neutral-400">Years Learning</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-12 border-t border-neutral-800 mt-8">
+            <div className="about-stat">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tighter">2+</h3>
+              <p className="text-xs uppercase tracking-widest text-neutral-500 font-mono">Years Exp</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-900/50">
-              <h3 className="text-2xl font-bold text-neutral-100">5+</h3>
-              <p className="text-sm text-neutral-400">Projects</p>
+            <div className="about-stat">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tighter">15+</h3>
+              <p className="text-xs uppercase tracking-widest text-neutral-500 font-mono">Projects</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-900/50">
-              <h3 className="text-2xl font-bold text-neutral-100">5+</h3>
-              <p className="text-sm text-neutral-400">Technologies</p>
+            <div className="about-stat">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tighter">5+</h3>
+              <p className="text-xs uppercase tracking-widest text-neutral-500 font-mono">Tech Stack</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-900/50">
-              <h3 className="text-2xl font-bold text-neutral-100">100%</h3>
-              <p className="text-sm text-neutral-400">Dedication</p>
+            <div className="about-stat">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tighter">100%</h3>
+              <p className="text-xs uppercase tracking-widest text-neutral-500 font-mono">Commitment</p>
             </div>
-          </motion.div>
-        </motion.div>
-      </Card>
+          </div>
+        </div>
+
+      </div>
+
     </section>
   );
-};
+}
 
-export default About;
