@@ -50,9 +50,11 @@ export default function Contact() {
 
         <div className="contact-element flex flex-col items-center gap-8 w-full max-w-2xl">
           
-          <div className="w-full flex items-center justify-between p-6 border border-neutral-800 rounded-lg bg-neutral-950/50 hover:bg-white/5 transition-colors group">
-            <span className="text-xl md:text-2xl font-mono text-white tracking-wide">{CONTACT.email}</span>
-            <div className="flex gap-4">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-between p-4 sm:p-6 border border-neutral-800 rounded-lg bg-neutral-950/50 hover:bg-white/5 transition-colors group gap-4">
+            <span className="text-base sm:text-xl md:text-2xl font-mono text-white tracking-wide break-all text-center sm:text-left">
+              {CONTACT.email}
+            </span>
+            <div className="flex gap-4 shrink-0">
               <button onClick={copyEmail} className="text-neutral-500 hover:text-white transition-colors" title="Copy Email">
                 {copiedEmail ? <Check size={24} className="text-green-500" /> : <Copy size={24} />}
               </button>
